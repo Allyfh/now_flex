@@ -18,6 +18,11 @@ header{
     color: white;
     background-color: rgb(168, 167, 167);
     padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1{
@@ -40,11 +45,14 @@ nav{
     color: white;
     text-decoration: none;
     padding: 10px;
+    line-height: 3em;
+    background-color: black;
 }
 
  nav > a:hover{
     text-decoration: underline;
     background-color: rgb(145, 144, 144);
+    transition: backgorund-color .5s;
 }
 
 main{
