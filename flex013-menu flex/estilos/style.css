@@ -26,8 +26,9 @@ header{
 }
 
 header > h1{
+    /*border: 1px dotted black;*/
     padding-bottom: 10px;
-    border: 1px dotted black;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.445);
     
 }
 
@@ -35,21 +36,22 @@ header > p{
     padding: 10px;
     line-height: 1.5em;
     text-indent: 20px;
-    border: 1px dotted black;
+
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
 }
 
+
 header > nav{
     
-    border: 1px dotted black;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
 }
 
  nav > a{
+    
     color: white;
     text-decoration: none;
     padding: 10px;
